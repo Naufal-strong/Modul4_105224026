@@ -1,5 +1,12 @@
-public class App {
-    public static void main(String[] args) throws Exception {
-        System.out.println("Hello, World!");
+public class latihan {
+    String name;
+    int umur;
+    String jurusanStudi;
+
+    public latihan (String name, int umur, String jurusanStudi) {
+        this.name = name;
+        this.umur = umur;
+        this.jurusanStudi = jurusanStudi;
+
     }
 }
